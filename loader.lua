@@ -1,6 +1,5 @@
 -- [[ ! DUELS KÄUFER LOADER ]] --
 
--- 1. Wir checken, ob der Käufer einen Key eingegeben hat
 local key = _G.script_key
 
 if not key or key == "" then
@@ -8,7 +7,7 @@ if not key or key == "" then
     return
 end
 
-print("⏳ Key erkannt. Lade ! Duels Hub...")
+print("⏳ Key erkannt. Verbinde mit der Datenbank...")
 
--- 2. Wenn der Key da ist, laden wir dein dickes, verschlüsseltes Script:
-loadstring(game:HttpGet("https://raw.githubusercontent.com/u5585916211-cyber/lua-scirpts/refs/heads/main/DUELS_obfuscated.lua"))()
+-- Lädt dein bombensicheres, API-gechecktes Script:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/u5585916211-cyber/lua-scirpts/refs/heads/main/DUELS!_obfuscated.lua"))()
