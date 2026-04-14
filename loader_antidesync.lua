@@ -7,4 +7,4 @@ if not key or key == "" then
 end
 
 print("⏳ Lade OMNI-VISION Anti-Desync...")
-loadstring(game:HttpGet("HIER_KOMMT_SPÄTER_DER_LINK_ZUR_VERSCHLÜSSELTEN_DATEI_REIN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/u5585916211-cyber/lua-scirpts/refs/heads/main/Antidesync.lua"))()
